@@ -1,24 +1,27 @@
-# Bot-A-News-Research-Tool
+# Bot-A-News-Research-Tool🤖
 
 Bot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
+<img width="725" alt="researchtool" src="https://github.com/user-attachments/assets/96f3bc13-cd2f-40ec-bf63-b1ef1a334ac5" />
 
 
-# Features
--> Load URLs or upload text files containing URLs to fetch article content.
--> Process article content through LangChain's UnstructuredURL Loader
--> Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to ----- 
+
+
+# 🚀 Features....
+1) Load URLs or upload text files containing URLs to fetch article content.
+2) Process article content through LangChain's UnstructuredURL Loader
+3) Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to
    enable swift and effective retrieval of relevant information
--> Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
+4) Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
 
 
-# Usage/Examples
+# 🧠 Usage/Examples
 
-Run the Streamlit app by executing:
+## Run the Streamlit app by executing:
 
 -> streamlit run main.py
 
-The web app will open in your browser.
+## 🛠️The web app will open in your browser.
 
 -> On the sidebar, you can input URLs directly.
 
@@ -32,12 +35,15 @@ The web app will open in your browser.
 
 -> One can now ask a question and get the answer based on those news articles
 
-we used following news articles
+## we used following news articles
 
-https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
-https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
-https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
-Project Structure
+1) https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
+
+2) https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
+
+3) https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
+
+# Project Structure
 main.py: The main Streamlit application script.
 requirements.txt: A list of required Python packages for the project.
 faiss_store_openai.pkl: A pickle file to store the FAISS index.
