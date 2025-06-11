@@ -2,6 +2,8 @@
 
 Bot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
+THIS IS THE INTERFACE LOOK LIKE :
+
 <img width="725" alt="researchtool" src="https://github.com/user-attachments/assets/96f3bc13-cd2f-40ec-bf63-b1ef1a334ac5" />
 
 
@@ -44,7 +46,7 @@ Bot is a user-friendly news research tool designed for effortless information re
 3) https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
 
 # Project Structure
-main.py: The main Streamlit application script.
-requirements.txt: A list of required Python packages for the project.
-faiss_store_openai.pkl: A pickle file to store the FAISS index.
-.env: Configuration file for storing your OpenAI API key.
+1. main.py: The main Streamlit application script.
+2. requirements.txt: A list of required Python packages for the project.
+3. faiss_store_openai.pkl: A pickle file to store the FAISS index.
+4. .env: Configuration file for storing your OpenAI API key.
